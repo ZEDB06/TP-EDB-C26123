@@ -30,6 +30,7 @@ main {
 }
 
 h1 {
+  color: #2a1e35;
   font-size: 3rem;
   font-weight: 800;
   line-height: 1.15;
@@ -108,7 +109,7 @@ footer .footer-list {
 }
 
 .text-light {
-  color: #ffffff;
+  color: #ba1111;
 }
 
 .text-dark {
