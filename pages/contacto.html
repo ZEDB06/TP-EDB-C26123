@@ -4,15 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;0,800;1,100;1,400;1,600;1,700&display=swap"
-      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <div class="div-logo"><a class="logo" href="../index.html">LOGO</a></div>
+      <div class="div-logo">
+        <a class="logo" href="../index.html">
+          <img src="../img/Subaru-Logo.jpg" alt="logo Subaru" />
+        </a>
+      </div>
 
       <nav class="header-nav">
         <ul>
@@ -26,27 +29,27 @@
       </nav>
     </header>
     <main>
-      <h1 class="titulo-contacto text-secondary">Contactanos</h1>
+      <h1 class="titulo-contacto text-secondary">Contáctanos</h1>
 
       <form class="form-contacto" action="" method="POST">
         <div class="grupo-input">
-          <label for="email"> Your email: </label>
-          <input id="email" type="email" name="email" />
+          <label for="email"> <h3>Email:</h3> </label>
+          <input type="email" id="email" style="width: 500px; height: 50px;" maxlength="30" required />
         </div>
         <div class="grupo-input">
-          <label for="mensaje"> Your message: </label>
-          <textarea id="mensaje" name="message"></textarea>
+          <label for="mensaje"> <h3>Dejános tu mensaje:</h3> </label>
+          <textarea id="mensaje" name="mensaje" style="width: 500px; height: 200px;"></textarea>
         </div>
-        <!-- your other form fields go here -->
-        <button class="btn bg-secondary text-dark" type="submit">Send</button>
+        <button class="btn bg-secondary text-dark" type="submit">Enviar</button>
       </form>
     </main>
     <footer>
-      <p>Sitio realizado por Belu para Talento Tech</p>
+      <p class="parrafo">Subaru Parts Argentina S.R.L.</p> 
       <nav>
         <ul class="footer-list">
-          <li><img src="../img/whatsapp.png" alt="logo de whatsapp" /></li>
-          <li><img src="../img/social.png" alt="logo de whatsapp" /></li>
+          <li><a href="https://wa.me/541169541951?text=Hola,%20me%20interesa%20tu%20producto"><img src="../img/whatsapp.png" alt="logo de Whatsapp" /></a></li>
+          <li><a href="https://www.facebook.com/SubaruArgentinaOficial/"><img src="../img/face.png" alt="logo de Facebook" /></a></li>
+          <li><a href="https://www.instagram.com/subaru.argentina/"><img src="../img/instagr.png" alt="logo de Instagram" /></a></li>
         </ul>
       </nav>
     </footer>
